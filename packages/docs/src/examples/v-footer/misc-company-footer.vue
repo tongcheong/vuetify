@@ -1,5 +1,6 @@
 <template>
-  <v-footer class="bg-grey-lighten-1">
+  <v-app>
+  <v-footer app class="bg-grey-lighten-1">
     <v-row justify="center" no-gutters>
       <v-btn
         v-for="link in links"
@@ -16,6 +17,7 @@
       </v-col>
     </v-row>
   </v-footer>
+  </v-app>
 </template>
 
 <script setup>
